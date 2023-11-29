@@ -1,33 +1,41 @@
 import { Outlet, Link } from "react-router-dom";
+import NavRightSide from "./layout/components/nav_rightside";
 
 
 const Layout = () => {
-    return (
-        <>
-            <nav>
-                <img src="./assets/Homeimages/daologo.png" className="DaoLabs-Logo" alt="DaoLabsLogo" />
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="LaunchPad">LaunchPad</Link>
-                    </li>
-                    <li>
-                        <Link to="Games">Games</Link>
-                    </li>
-                    <li>
-                        <Link to="Staking">Staking</Link>
-                    </li>
-                    <li>
-                        <Link to="Markets">Markets</Link>
-                    </li>
-                </ul>
-            </nav>
+  return (
+    <>
+      <nav>
+        <div className="nav_logo">
+          <img
+            src="./assets/Homeimages/daologo.png"
+            alt="daolabslogo"
+          />
+        </div>
+        <ul className="nav_list">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="LaunchPad">LaunchPad</Link>
+          </li>
+          <li>
+            <Link to="Games">Games</Link>
+          </li>
+          <li>
+            <Link to="Staking">Staking</Link>
+          </li>
+          <li>
+            <Link to="Markets">Markets</Link>
+          </li>
+        </ul>
 
-            <Outlet/>
-        </>
-    )
-}
+        <NavRightSide nav_right_price="0.016" title="Connect" />       
+      </nav>
+
+      <Outlet />
+    </>
+  );
+};
 
 export default Layout;
