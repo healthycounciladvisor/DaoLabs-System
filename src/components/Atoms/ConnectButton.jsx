@@ -1,6 +1,7 @@
 import React from 'react';
+import './atom.css';
 
-const Button = ({title}) => {
+const ConnectButton = ({title}) => {
     return (
         <button className="connect_button">
             {title}
@@ -8,4 +9,4 @@ const Button = ({title}) => {
     )
 }
 
-export default Button;
+export default ConnectButton;

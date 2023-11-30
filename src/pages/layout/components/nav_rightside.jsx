@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "../../../components/Atoms/ConnectButton";
+import ConnectButton from "../../../components/Atoms/ConnectButton";
+import "../nav.css";
 
 const NavRightSide = ({nav_right_price, title}) => {
 
@@ -16,7 +17,7 @@ const NavRightSide = ({nav_right_price, title}) => {
             </div>
             <div className="nav_daox_price">{nav_right_price}$</div>
           </div>
-          <Button title={title}/>
+          <ConnectButton title={title}/>
         </div>
     )
 }
