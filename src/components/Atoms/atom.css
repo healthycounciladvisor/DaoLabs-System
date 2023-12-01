@@ -1,10 +1,10 @@
 .connect_button {
   display: inline-flex;
-  padding: 12px 23px;
+  padding: 1.2rem 2.3rem;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  border: 1px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+  border-radius: 1rem;
+  border: 0.1rem solid var(--gradient-light, rgba(255, 255, 255, 0.47));
   background: var(
     --Gradient-1,
     linear-gradient(228deg, #a2e6fb -6.9%, #f1c9de 98.89%)
@@ -20,12 +20,12 @@
 }
 
 .join_button {
-  height: 56px;
-  padding: 19px 21px 19px 20px;
+  height: 5.6rem;
+  padding: 1.9rem 2.1rem 1.9rem 2rem;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  border: 1px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+  border-radius: 1rem;
+  border: 0.1rem solid var(--gradient-light, rgba(255, 255, 255, 0.47));
   background: var(
     --Gradient-1,
     linear-gradient(228deg, #a2e6fb -6.9%, #f1c9de 98.89%)
@@ -34,7 +34,7 @@
 
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   line-height: 100%;
@@ -42,15 +42,15 @@
 
 .learnmore {
   display: inline-flex;
-  height: 56px;
-  padding: 19px 28px 19px 29px;
+  height: 5.6rem;
+  padding: 1.9rem 2.8rem 1.9rem 2.9rem;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  border: 1px solid var(--Gradient-2, #e4fd84);
+  border-radius: 1rem;
+  border: 0.1rem solid var(--Gradient-2, #e4fd84);
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   line-height: 100%; /* 18px */
@@ -67,8 +67,8 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 47px;
-    margin-top: 34px;
+    gap: 4.7rem;
+    margin-top: 3.4rem;
 }
 
 .title_p {

@@ -1,54 +1,30 @@
 import React, { Fragment } from "react";
-import JoinButton from "../../components/Atoms/joinbutton";
 import "./home.css";
-import HomeService from "./components/HomeService";
-import TitleP from "../../components/Atoms/titlep";
-
-const trade = {
-  firstimg: "./assets/Homeimages/trade.png",
-};
+import StatisticsSection from "./components/SatisticsSection";
+import ServiceSection from "./components/ServiceSection";
+import PassiveIncomeSection from "./components/PassiveIncomeSection";
+import BannerSection from "./components/BannerSection";
+import TokenomicSection from "./components/TokenomicSection";
 
 const Home = () => {
+
   return (
     <Fragment>
       <div className="home_main">
-        <div className="home_daolabs1">
-          <p className="daolabs_system_title">DaoLabs Ecosystem</p>
-          <p className="daolabs_title_intro">
-            DaoLabs is an Incubator project with the mission of connecting the
-            Developers and Artists, creating and improving projects.
-          </p>
-          <div className="homejoinbutton">
-            <JoinButton
-              title="Join the club"
-              JoinButtonclassname="join_button"
-            />
-            <JoinButton title="Learn More" JoinButtonclassname="learnmore" />
-          </div>
-        </div>
+        {/* DaoLabs Banner Section*/}
+        <BannerSection />
 
-        {/* DaoLabs Services */}
+        {/* DaoLabs Services Section */}
+        <ServiceSection />
 
-        <div className="home_daolabs2">
-          <TitleP title="DaoLabs Services" fontSize="40px" />
-          <div className="homeserviceArray">
-            <HomeService
-              serviceImage={trade.firstimg}
-              title="Connect People"
-              fontSize="1.5rem"
-            />
-            <HomeService
-              serviceImage={trade.firstimg}
-              title="Connect People"
-              fontSize="1.5rem"
-            />
-            <HomeService
-              serviceImage={trade.firstimg}
-              title="Connect People"
-              fontSize="1.5rem"
-            />
-          </div>
-        </div>
+        {/* DaoLabs Statistics Section */}
+        <StatisticsSection />
+
+        {/* Passive income */}
+        <PassiveIncomeSection />
+
+        {/* DaoX Tokenomics */}
+        <TokenomicSection />
       </div>
     </Fragment>
   );
