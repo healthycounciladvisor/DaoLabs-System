@@ -92,3 +92,9 @@ nav {
 .nav_daox_logo > img {
   height: 100%;
 }
+
+@media only screen and (max-width: 995px) {
+  .nav_list {
+    display: none;
+  }
+}

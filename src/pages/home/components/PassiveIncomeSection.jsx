@@ -40,19 +40,28 @@ const PassiveIncomeSectionContainer = styled.div`
 const PassiveIncomeHeader = styled.div`
   position: absolute;
   margin-top: 28.5rem;
-  margin-left: 76.4rem;
+  margin-left: 50rem;
   aline-items: center;
   with: 58rem;
+  @media only screen and (max-width: 768px) {
+    margin: 0;
+    text-align: center;
+  }
 `;
 
 const PassiveIncomeHeaderTitle = styled(PrimaryText)`
-  font-size: 4rem;
+  font-size: 3.5rem;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 3rem;
+  }
 `;
 
 const JoinButtonPosition = styled.div`
-  margin-top: 55rem;
-  margin-left: 64.2rem;
+  margin-top: 39%;
+  margin-left: 39%;
   position: absolute;
+  
 `;
 
 export default PassiveIncomeSection;

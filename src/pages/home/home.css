@@ -176,6 +176,7 @@
 
 .daolabs4_headintro {
   font-family: Inter;
+  width: 80%;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -196,6 +197,14 @@
   html {
     font-size: 7.1px;
   }
+
+  .daolabs_system_title {
+    width: auto;
+  }
+
+  .daolabs_title_intro {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 995px) {
@@ -213,5 +222,13 @@
 @media only screen and (max-width: 810px) {
   .servieTitle > .title_p {
     font-size: 14px;
+  }
+
+  .daolabs_system_title {
+    font-size: 3rem;
+  }
+
+  .tokenomicImg {
+    display: none;
   }
 }

@@ -23,5 +23,20 @@ export const staticPath = {
     tokenomics: {
         tokenomicslogoImg: "./assets/Homeimages/tokenomicslogoImg.png",
     },
+
+    teamlists: {
+      drsimonImg: "./assets/Homeimages/daolabsteamlists/drsimon.png",
+      drazenImg: "./assets/Homeimages/daolabsteamlists/drazen.png",
+      crosmodevImg: "./assets/Homeimages/daolabsteamlists/crosmodev.png",
+      davidtanakaImg: "./assets/Homeimages/daolabsteamlists/davidtanaka.png",
+      atlasdragonImg: "./assets/Homeimages/daolabsteamlists/atlasdragon.png",
+      cellerdwellerImg: "./assets/Homeimages/daolabsteamlists/cellerdweller.png",
+    },
+
+    partnerslists: {
+      PartnerLogo1Imag: "./assets/Homeimages/partnerlists/PartnersImg1.png",
+      PartnerLogo2Imag: "./assets/Homeimages/partnerlists/PartnersImg2.png",
+      PartnerLogo3Imag: "./assets/Homeimages/partnerlists/PartnersImg3.png",
+    },
   },
 };
