@@ -68,6 +68,7 @@ const HomeFooter = () => {
           </FooterDaoLabsRright>
         </FooterRight>
       </FooterMain>
+      <ResponsiveCopyRight>© DaoLabs Ecosystem, 2023</ResponsiveCopyRight>
       <Outlet />
     </FooterContainer>
   );
@@ -141,6 +142,20 @@ const FooterLabelText = styled(PrimaryPtag)`
 const CopyRight = styled(PrimaryText)`
   font-size: 12px;
   text-align: left;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`;
+
+const ResponsiveCopyRight = styled(PrimaryText)`
+  font-size: 12px;
+  @media only screen and (max-width: 2000px) {
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+    display: block;
+    text-align: center;
+  }
 `;
 
 const FooterRight = styled.div`

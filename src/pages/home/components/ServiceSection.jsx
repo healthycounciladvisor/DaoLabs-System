@@ -6,7 +6,7 @@ import ServiceCard from "../../../components/Molecules/ServiceCard";
 const ServiceSection = () => {
   return (
     <ServiceSectionContainer>
-      <SectionTitle>Servicies</SectionTitle>
+      <SectionTitle>DaoLabs Servicies</SectionTitle>
       <CardList>
         <ServiceCard
           image={staticPath.home.service.connectImg}
@@ -27,7 +27,6 @@ const ServiceSection = () => {
     </ServiceSectionContainer>
   );
 };
-
 
 const ServiceSectionContainer = styled.div`
   width: 100%;
