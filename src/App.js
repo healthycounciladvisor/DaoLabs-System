@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import Home from "./pages/Home";
-import LaunchPad from "./pages/LaunchPad";
-import Games from "./pages/Games";
-import Staking from "./pages/Staking";
+import Home from "./pages/home/Home";
+import LaunchPad from "./pages/launchpad/LaunchPad";
+import Games from "./pages/game/Games";
+import Staking from "./pages/staking/Staking";
 import Markets from "./pages/Markets";
-import Layout from "./pages/Layout";
+import Layout from "./pages/layout/Layout";
 
 
 function App() {
