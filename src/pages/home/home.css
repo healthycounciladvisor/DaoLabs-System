@@ -16,7 +16,6 @@
 }
 
 .daolabs_system_title {
-  width: 78rem;
   font-family: Inter;
   font-size: 6.4rem;
   font-style: normal;
@@ -33,7 +32,7 @@
 
 .daolabs_title_intro {
   font-family: Inter;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -54,7 +53,7 @@
   padding: 3.2rem 2.4rem;
   flex-direction: column;
   align-items: center;
-  gap: 3.2rem;
+  gap: 32px;
   flex-shrink: 0;
   border-radius: 2.5rem;
   background: var(--black-black-12, #1a1b23);
@@ -77,8 +76,8 @@
 }
 
 .connectpeople_Image {
-  width: 8rem;
-  height: 8rem;
+  width: 80px;
+  height: 80px;
 }
 
 .connectpeople_Image > img {
@@ -91,7 +90,7 @@
   align-items: center;
   text-align: center;
   font-family: Inter;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -116,7 +115,7 @@
   text-align: center;
   /* button/1.6rem */
   font-family: Inter;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 100%;
@@ -176,11 +175,13 @@
 
 .daolabs4_headintro {
   font-family: Inter;
-  width: 80%;
-  font-size: 1.6rem;
+  padding-top: 16px;
+  font-size: 16px;
+  width: 580px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  margin: auto;
   background: var(
     --Gradient-1,
     linear-gradient(228deg, #a2e6fb -6.9%, #f1c9de 98.89%)
@@ -188,7 +189,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 58rem;
 }
 
 /* Responsive styles */
@@ -196,14 +196,6 @@
 @media only screen and (max-width: 1330px) {
   html {
     font-size: 7.1px;
-  }
-
-  .daolabs_system_title {
-    width: auto;
-  }
-
-  .daolabs_title_intro {
-    width: auto;
   }
 }
 
@@ -213,22 +205,75 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .home_daolabs1 {
+    padding-top: 50px;
+    background-image: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .daolabs4_headintro {
+    width: 80%;
+  }
+
+  .homeservice_main {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .servieTitle > .title_p {
     font-size: 20px;
   }
+
+  .homesatistics_main {
+    padding: 48px 0px;
+  }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 768px) {
   .servieTitle > .title_p {
     font-size: 14px;
   }
 
   .daolabs_system_title {
-    font-size: 3rem;
+    font-size: 30px;
+  }
+  .home_daolabs1 {
+    padding-left: 0;
+    padding-top: 33px;
   }
 
   .tokenomicImg {
     display: none;
+  }
+
+  .daolabs_title_intro {
+    width: 500px;
+  }
+
+  .homeservice_main_first {
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .daolabs_system_title {
+    font-size: 20px;
+  }
+
+  .homeservice_main_first >p {
+    font-size: 12px!important;
+  }
+
+  .contactUs_label{
+    font-size: 12px;
+  }
+
+  .daolabs_title_intro {
+    width: 274px;
   }
 }

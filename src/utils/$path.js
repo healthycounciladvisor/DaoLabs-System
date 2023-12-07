@@ -6,10 +6,16 @@ export const staticPath = {
     logo: {
         DaologoImg: "./assets/Homeimages/daologo.png",
         navlogoImg: "./assets/Homeimages/navlogo.png",
+        ResponsiveConnectButtonImg: "./assets/Homeimages/ConnectButton.png",
     },
   },
 
   home: {
+    banner: {
+      responsiveBannerImg1: "./assets/Homeimages/Rectangle2.png",
+      responsiveBannerImg2: "./assets/Homeimages/Rectangle3.png",
+    },
+
     service: {
       connectImg: "./assets/Homeimages/trade.png",
       launchImg: "./assets/Homeimages/trade2.png",
@@ -18,6 +24,7 @@ export const staticPath = {
 
     passiveIncome: {
         passiveIncomeImg: "./assets/Homeimages/passiveIncomebg.png",
+        DiamondImg: "./assets/Homeimages/Rectangle4.png",
     },
 
     tokenomics: {

@@ -1,9 +1,9 @@
 import React from 'react';
 import './atom.css';
 
-const JoinButton = ({title, JoinButtonclassname}) => {
+const JoinButton = ({title, classname}) => {
     return (
-        <button className={JoinButtonclassname}>
+        <button className={classname}>
             {title}
         </button>
     )
