@@ -59,8 +59,8 @@ const TeamPartnerSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 12rem;
-  @media only screen and (max-width: 359px) {
-    height: 342.4rem;
+  @media only screen and (max-width: 320px) {
+    height: 615rem;
   }
 `;
 
@@ -122,6 +122,9 @@ const DaoLabsPartnersList = styled.div`
 
 const TeamPartnerSectionTitle = styled(PrimaryText)`
   font-size: 40px !important;
+  @media only screen and (max-width: 320px) {
+    font-size: 20px !important;
+  }
 `;
 
 export default TeamPartnerSection;

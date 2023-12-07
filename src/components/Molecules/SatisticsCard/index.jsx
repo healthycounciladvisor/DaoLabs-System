@@ -16,19 +16,40 @@ const SatisticsCardContainer = styled.div`
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
-  padding: 2.6rem 1.9rem;
-  width: 31.3rem;
-  height: 10.7rem;
+  padding: 26px 19px;
+  width: 313px;
+  height: 107px;
   border-radius: 20.582px;
   border: 1px solid var(--Gradient-2, #e4fd84);
 
   background: var(--black-black-12, #1a1b23);
   /* Blur Layers */
   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  @media only screen and (max-width: 768px) {
+    width: 270px;
+    height: 105px;
+    padding: 20px 10px;
+    border-radius: 16px;
+  }
+  @media only screen and (max-width: 658px) {
+    width: 315px;
+    height: 105px;
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  @media only screen and (max-width: 375px) {
+    width: 270px;
+    height: 105px;
+    padding: 20px 10px;
+    border-radius: 16px;
+  }
 `;
 
 const SatisticsCardTitle = styled(PrimaryText)`
-  font-size: 1.5rem;
+  font-size: 16px;
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
 `;
 
 const SatisticsCardLbel = styled.p`

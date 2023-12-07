@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Love+Light&family=Nabla&family=Rubik+Distressed&display=swap');
 
 * {

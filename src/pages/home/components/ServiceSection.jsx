@@ -35,6 +35,9 @@ const ServiceSectionContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items:center;
+  @media only screen and (max-width: 425px) {
+    padding: 48px 43px;
+  }
 `;
 
 const CardList = styled.div`
@@ -51,6 +54,10 @@ const CardList = styled.div`
 
 const SectionTitle = styled(PrimaryText)`
   font-size: 40px !important;
+  @media only screen and (max-width: 768px) {
+    font-size: 20px !important;
+    width: 300px;
+  }
 `;
 
 

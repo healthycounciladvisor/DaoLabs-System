@@ -96,15 +96,15 @@ const FooterMain = styled.div`
 const FooterLeft = styled.div`
   display: flex;
   flex-direction: column;
-  row-gap: 3.2rem;
+  row-gap: 32px;
   width: 50%;
   @media only screen and (max-width: 600px) {
     width: 90%;
 `;
 
 const FooterYellowDis = styled(PrimaryText)`
-  font-size: 14px;
-  width: 60rem;
+  font-size: 16px;
+  width: 50rem;
   text-align: left;
   line-height: 150%;
   @media only screen and (max-width: 700px) {
@@ -142,7 +142,7 @@ const FooterLabelText = styled(PrimaryPtag)`
 const CopyRight = styled(PrimaryText)`
   font-size: 12px;
   text-align: left;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -152,7 +152,7 @@ const ResponsiveCopyRight = styled(PrimaryText)`
   @media only screen and (max-width: 2000px) {
     display: none;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     display: block;
     text-align: center;
   }
@@ -161,6 +161,7 @@ const ResponsiveCopyRight = styled(PrimaryText)`
 const FooterRight = styled.div`
   display: flex;
   justify-content: space-between;
+  padding-left: 5rem;
   @media only screen and (max-width: 800px) {
     width: 90%;
   }
@@ -172,7 +173,7 @@ const FooterNavLeft = styled.div`
   text-align: left;
   width: 250px;
   list-style-type: none;
-  row-gap: 2.4rem;
+  row-gap: 24px;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
