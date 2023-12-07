@@ -78,8 +78,13 @@ const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 10rem 16.8rem 10rem;
   @media only screen and (max-width: 768px) {
+    padding: 2rem 10rem 10rem 10rem;
+    row-gap: 20px;
+  }
+  @media only screen and (max-width: 425px) {
     padding: 2rem 2rem 10rem 2rem;
     row-gap: 20px;
+  }
 `;
 
 const FooterMain = styled.div`
@@ -163,7 +168,11 @@ const FooterRight = styled.div`
   justify-content: space-between;
   padding-left: 5rem;
   @media only screen and (max-width: 800px) {
+    width: 80%;
+  }
+  @media only screen and (max-width: 425px) {
     width: 90%;
+    padding-left: 0;
   }
 `;
 
