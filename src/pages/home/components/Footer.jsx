@@ -172,7 +172,7 @@ const FooterRight = styled.div`
   }
   @media only screen and (max-width: 425px) {
     width: 90%;
-    padding-left: 0px;
+    padding-left: 0;
   }
 `;
 
